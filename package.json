@@ -1,5 +1,6 @@
 {
   "name": "debug",
+  "version": "0.0.0",
   "src": ["debug.h", "debug.c"],
   "repo": "stephenmathieson/debug.c",
   "license": "mit",
