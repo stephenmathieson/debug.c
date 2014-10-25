@@ -2,4 +2,5 @@ deps
 *.o
 examples/simple
 examples/threads
+examples/file
 debug.txt
