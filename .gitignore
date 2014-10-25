@@ -1,0 +1,5 @@
+deps
+*.o
+examples/simple
+examples/threads
+debug.txt
