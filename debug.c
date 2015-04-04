@@ -124,6 +124,8 @@ debug(debug_t *debugger, const char *fmt, ...) {
     return;
   }
 
+  va_end(args);
+
   // print to stream
   fprintf(debugger->stream, " %s : %s\n", pre, post);
 
