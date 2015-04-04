@@ -1,4 +1,5 @@
 
+#include <stdlib.h>
 #include <time.h>
 #include "ms/ms.h"
 #include "../debug.h"
