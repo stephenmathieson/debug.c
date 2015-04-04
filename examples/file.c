@@ -1,5 +1,4 @@
 
-#include <time.h>
 #include "ms/ms.h"
 #include "../debug.h"
 
@@ -13,8 +12,6 @@ static debug_t debugger;
 
 int
 main() {
-  clock_t start = clock();
-
   debug_init(&debugger, "example:file");
   FILE *stream = fopen("./debug.txt", "w");
   debugger.stream = stream;
