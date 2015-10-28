@@ -20,7 +20,7 @@ main() {
 }
 ```
 
-## Envionment Variables
+## Environment Variables
 
 ### DEBUG
 
